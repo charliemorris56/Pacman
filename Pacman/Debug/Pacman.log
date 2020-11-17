@@ -1,0 +1,43 @@
+﻿  Pacman.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716,1): warning C4251:  'std::vector<S2D::Input::Keys,std::allocator<_Ty>>::_Mypair': class 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716,1): warning C4251:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716,1): warning C4251:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716,1): warning C4251:             _Ty=S2D::Input::Keys
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716,1): warning C4251:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :  see declaration of 'std::_Compressed_pair<std::allocator<_Ty>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :             _Ty=S2D::Input::Keys
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(1716): message :         ]
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\S2D\Input.h(108): message :  see reference to class template instantiation 'std::vector<S2D::Input::Keys,std::allocator<_Ty>>' being compiled
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\S2D\Input.h(108): message :         with
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\S2D\Input.h(108): message :         [
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\S2D\Input.h(108): message :             _Ty=S2D::Input::Keys
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\S2D\Input.h(108): message :         ]
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(14,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(110,18): warning C4154:  deletion of an array expression; conversion to pointer supplied
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(159,84): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(159,45): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(170,84): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(170,45): warning C4244:  'argument': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(449,36): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(450,36): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(456,33): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(457,33): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(497,55): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(515,56): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(533,55): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(534,54): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(561,54): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(580,54): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(596,27): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(609,29): warning C4244:  'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(634,62): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(635,63): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(641,54): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(642,63): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(648,54): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(649,54): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(655,62): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+E:\Documents\Uni\FOGGS\Pacman\Pacman\Pacman\Pacman.cpp(656,54): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+  Pacman.vcxproj -> E:\Documents\Uni\FOGGS\Pacman\Pacman\Debug\Pacman.exe
